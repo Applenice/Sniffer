@@ -10,8 +10,7 @@ Implementing a simple sniffer with MFC
 
 当前功能:  
  - 列取主机中的网卡  
-    无线网卡并未列出，原因还未查出  
-
+    此前认为未列出无线网卡，但经过IP地址对比后，发现无线网卡其实已经列出，但获取的网卡描述信息为Microsoft，与主机中显示的描述信息不符，该问题待解决  
  - 协议过滤  
     TCP、UDP、ARP、ICMP  
 
