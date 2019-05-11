@@ -198,6 +198,8 @@
     <ClInclude Include="utilities.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="event.cpp" />
+    <ClCompile Include="function.cpp" />
     <ClCompile Include="Sniffer.cpp" />
     <ClCompile Include="SnifferDlg.cpp" />
     <ClCompile Include="stdafx.cpp">
